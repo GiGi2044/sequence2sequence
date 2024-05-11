@@ -1,0 +1,81 @@
+{
+  "data": [
+  {
+      "id": 0,
+      "translation":{
+          "pli":"PROCEDURE MAIN {{type0}} {{type1}}",
+          "ktl":"fun main (args: {{type0}} <{{type1}}>)"
+      }
+  },
+  {
+      "id": 1,
+      "translation":{
+          "pli":"PROCEDURE {{name}}",
+          "ktl":"fun {{name}}()"
+      }
+  },
+  {
+      "id":2,
+      "translation":{
+          "pli":"PROCEDURE {{name}} {{param0}} {{type0}} {{return}}",
+          "ktl":"fun {{name}}({{param0}} : {{type0}}) : {{return}}"
+      }
+  },
+  {
+      "id":3,
+      "translation":{
+          "pli":"DECLARE {{name}} {{type}}",
+          "ktl":"var {{name}} : {{type}}"
+      }
+  },
+  {
+      "id":4,
+      "translation":{
+          "pli":"ASSIGN {{name}},{{value}}",
+          "ktl":"{{name}} = {{value}}"
+      }
+  },
+  {
+      "id":5,
+      "translation":{
+          "pli":"CALL {{name}}",
+          "ktl":"{{name}}()"
+      }
+  },
+  {
+      "id":6,
+      "translation":{
+          "pli":"CALL {{name}} {{param0}}" ,
+          "ktl":"{{name}}({{param0}})"
+      }
+  },
+  {
+      "id":7,
+      "translation":{
+          "pli":"IF {{value}} THEN" ,
+          "ktl":"if({{value}})"
+      }
+  },
+  {
+      "id":8,
+      "translation":{
+          "pli":"RETURN {{value}}",
+          "ktl":"return {{value}}"
+      }
+  },
+  {
+      "id":9,
+      "translation":{
+          "pli":"DO",
+          "ktl":"{"
+      }
+  },
+  {
+      "id":10,
+      "translation":{
+          "pli":"END",
+          "ktl":"}"
+      }
+  }
+  ]
+}
