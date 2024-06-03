@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 7b901993-e177-405f-929f-a70ae7c18e0f
+      url: 'https://gdcuninningham.quarto.pub/gdcblog'
